@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Calculator{
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-image: url(https://i.pinimg.com/736x/ec/30/54/ec305496e662c8ceece17ee3d4dae74a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#display{
+    width: 100%;
+    height: 150px;
+    font-size: 5em;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    background-image: url(https://i.pinimg.com/1200x/cc/eb/ce/ccebcef2ee069e2f8f3fb04176d86a59.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button{
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #ffffffcd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+button:hover{
+    background-image: url(https://i.pinimg.com/736x/44/0b/57/440b5759ecdffc51a8fc1a92fb28b5c5.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.operations{
+    background-color: #f39c12;
+    color: white;
+}
+.operations:hover{
+    background-image: url(https://i.pinimg.com/736x/27/f9/b6/27f9b65998b7aea3d54558b539f5b7e6.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
